@@ -45,11 +45,9 @@ body{
 
     #left{
         flex:55%;
-        min-height: 80vh;
     }
     #right{
         flex:45%;
-        min-height: 80vh;
 
 
     }
