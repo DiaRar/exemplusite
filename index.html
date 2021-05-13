@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>TatianaFit</title>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	  <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
+		    <div class="container">
+		    	<a class="navbar-brand" href="index.html"><img src="logo.png"
+															   width="40	"
+															   height="40" /> TatianaFit</a>
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="fa fa-bars"></span> Menu
+		      </button>
+		      <div class="collapse navbar-collapse" id="ftco-nav">
+		        <ul class="navbar-nav ml-auto mr-md-3">
+		        	<li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+		        	<li class="nav-item"><a href="clase" class="nav-link">Online Classes</a></li>
+		        	<li class="nav-item"><a href="#" class="nav-link">Videos</a></li>
+		        	<li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+		          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+		          <li class="dropdown nav-item d-md-flex align-items-center">
+                <a href="#" class="dropdown-toggle nav-link d-flex align-items-center justify-content-center icon-cart p-0" id="dropdown04" data-toggle="dropdown" aria-expanded="false">
+                  <i class="fa fa-shopping-cart"></i>
+                  <b class="caret"></b>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown04">
+                  <a href="#" class="dropdown-item">Action</a>
+                  <a href="#" class="dropdown-item">Another action</a>
+                  <a href="#" class="dropdown-item">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a href="#" class="dropdown-item">Separated link</a>
+                  <div class="dropdown-divider"></div>
+                  <a href="#" class="dropdown-item">One more separated link</a>
+                </div>
+              </li>
+		        </ul>
+		      </div>
+		    </div>
+		  </nav>
+    <!-- END nav -->
+  </div>
+		<div id="page">
+<div id="left">
+	<div class="container container2 potato">
+		<div class="test imgt clase">
+		<img class="imgsp" src="images/img_7981-2.jpg" width="100%" />
+			<section class="txtspc">
+				<h3 >Antrenamente Online</h3>
+				<a class="btn-success btn" href="clase">Inscrie-te acum</a>
+			</section>
+		</div>
+	</div>
+<div class="container container2 nonimg">
+	<div class="test">
+
+		<h2 style="text-align: center; font-weight: 600;">Despre Mine</h2>
+
+		<h5>Dintotdeauna am fost pasionată de sport şi competiţie, iubind mişcarea şi considerând că ea trebuie să facă parte din viaţa oricui, indiferent de vârstă.
+
+		</h5>
+	</div>
+
+</div>
+	<div class="container container2 nonimg">
+		<div class="test">
+			<h5>Sunt adepta unui stil de viaţa sănătos şi doresc să le inspir celor din jur pasiunea mea pentru sport şi alimentaţie sănătoasă. Dorind să transform această pasiune în meserie, am urmat cursuri de specializare în domeniu, devenind din 2016 Instructor de Fitness si Antrenor Personal acreditat. <br>
+			</h5>
+		</div></div>
+
+
+	<div class="container container2 nonimg">
+		<div class="test">
+			<h2 style="text-align: center; font-weight: 600;">Certificari</h2>
+			<ul>
+				<li><h5>Instructor de Fitness şi Antrenor Personal acreditat prin Move ON Fitness Education</h5></li>
+				<li><h5>Instructor de Aerobic acreditat prin Move On Fitness Education</h5></li>
+				<li><h5>Certificare Pilates-Full Pilates Matwork Instructor</h5></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container container2 potato">
+		<div class="test imgt">
+		<img src="images/poza2.jpg" width="100%" />
+		</div>
+	</div>
+	<div class="container container2 nonimg">
+		<div class="test">
+			<h2 style="text-align: center; font-weight: 600;">Specializari</h2>
+			<ul>
+				<li><h5>Programe de stretching şi respiraţie-Instructor Pilates</h5></li>
+				<li><h5>Programe pentru scăderea în greutate şi tonifiere</h5></li>
+				<li><h5>Antrenament funcţional</h5></li>
+			</ul>
+		</div>
+	</div>
+</div>
+		<div id="right"></div>
+		</div>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/poppyjs"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+	<script>
+		$(document).ready(function() {
+			if($(window).width()>=992)
+				$().transformare();
+			$().smecherie("slide-in");
+
+		});
+		var before = $(this).width();
+
+		$(window).resize(function() {
+			var after = $(this).width();
+			if (after != before) {
+				location.reload()
+			}
+		})
+	</script>
+	</body>
+</html>
+
